@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.counter{
+    /* position: relative; */
+    color: rgba(111, 111, 111, 0.7);
+    position: relative;
+    left: -80px;
+    top: -40px;
+}
+
+.word{
+    display: flex;
+}
+
+.wletter{
+    font-size: 45px;
+    color: rgba(111, 111, 111, 0.7);;
+}
+
+.wletter-typed{
+    color: rgba(23, 23, 23, 0.7);
+}
